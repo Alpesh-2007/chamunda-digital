@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { Navigate } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import introVideo from '../assets/videos/chamunda-intro.mp4'
 
 function Home() {
@@ -78,13 +78,15 @@ function Home() {
           <div className={`hero-buttons ${
             showContent ? 'animate-up delay-4' : 'content-hidden'
           }`}>
-            <a href="/gallery" className="gold-btn">
-              EXPLORE OUR WORK
-            </a>
 
-            <a href="/contact" className="outline-btn">
+            <Link to="/gallery" className="gold-btn">
+              EXPLORE OUR WORK
+            </Link>
+
+            <Link to="/contact" className="outline-btn">
               CONTACT US
-            </a>
+            </Link>
+
           </div>
 
         </div>
