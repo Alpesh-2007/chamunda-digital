@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 function About() {
   return (
     <section className="about-section section-padding">
@@ -33,15 +35,15 @@ function About() {
               into timeless photographs and videos.
             </p>
 
-            <a href="/contact" className="gold-btn">
+            <Link to="/contact" className="gold-btn">
               KNOW MORE
-            </a>
+            </Link>
 
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
