@@ -1,0 +1,176 @@
+{
+  "bookings": [
+    {
+      "id": "1",
+      "name": "Rahul Patel",
+      "phone": "9876543210",
+      "service": "Wedding Photography",
+      "date": "2026-12-15",
+      "location": "Ahmedabad",
+      "message": "Wedding photography booking",
+      "status": "Confirmed"
+    },
+    {
+      "name": "ALPESH SARVAIYA",
+      "phone": "+918160899819",
+      "service": "Pre-Wedding Shoot",
+      "date": "2027-09-25",
+      "location": "Morbi",
+      "message": "ajmera",
+      "status": "Cancelled",
+      "id": "LcHquvixVYU"
+    },
+    {
+      "name": "ALPESH SARVAIYA",
+      "phone": "+918160899819",
+      "service": "Event Photography",
+      "date": "2027-09-25",
+      "location": "Morbi",
+      "message": "a",
+      "status": "Pending",
+      "id": "rvqPhk4FKc4"
+    },
+    {
+      "name": "ALPESH SARVAIYA",
+      "phone": "+918160899819",
+      "service": "Pre-Wedding Shoot",
+      "date": "2026-11-25",
+      "location": "Morbi",
+      "message": "need proper work",
+      "status": "Pending",
+      "id": "kLigQ2DUBzo"
+    },
+    {
+      "name": "ALPESH SARVAIYA",
+      "phone": "+918160899819",
+      "service": "Cinematography",
+      "date": "2888-06-25",
+      "location": "Morbi",
+      "message": "awfds",
+      "status": "Pending",
+      "id": "6CzWokcSXQA"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "title": "Wedding Moments",
+      "category": "Wedding",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=700"
+    },
+    {
+      "id": "2",
+      "title": "Couple Photography",
+      "category": "Pre-Wedding",
+      "image": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=700"
+    },
+    {
+      "title": "portrait photos",
+      "category": "Portrait",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSALwyXiLodJ9fiVrVnN2L4wplCFrn2xCIM4h5IRNQfjg&s=10",
+      "id": "O5YrevKBsIY"
+    },
+    {
+      "title": "Dron Shooting",
+      "category": "Drone",
+      "image": "http://localhost:4000/uploads/1793431552972-553595708.mp4",
+      "mediaType": "video",
+      "fileName": "1793431552972-553595708.mp4",
+      "id": "82HwqOa79KA"
+    },
+    {
+      "title": "Portrait Photography",
+      "category": "Photography",
+      "image": "http://localhost:4000/uploads/1793431808623-896020384.jpg",
+      "mediaType": "image",
+      "fileName": "1793431808623-896020384.jpg",
+      "id": "QzucW6VXn5E"
+    },
+    {
+      "title": "Photos",
+      "category": "Photography",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793432986018-400530933.jpg",
+          "fileName": "1793432986018-400530933.jpg",
+          "mediaType": "image"
+        },
+        {
+          "url": "http://localhost:4000/uploads/1793432986034-686772607.mp4",
+          "fileName": "1793432986034-686772607.mp4",
+          "mediaType": "video"
+        },
+        {
+          "url": "http://localhost:4000/uploads/1793432986136-922706145.png",
+          "fileName": "1793432986136-922706145.png",
+          "mediaType": "image"
+        },
+        {
+          "url": "http://localhost:4000/uploads/1793432986175-715095396.png",
+          "fileName": "1793432986175-715095396.png",
+          "mediaType": "image"
+        },
+        {
+          "url": "http://localhost:4000/uploads/1793432986219-595205875.png",
+          "fileName": "1793432986219-595205875.png",
+          "mediaType": "image"
+        }
+      ],
+      "id": "L2Hoq2nAAWE"
+    },
+    {
+      "title": "Birthday Photoshoot",
+      "category": "Birthday",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793441257522-935337067.jpg",
+          "fileName": "1793441257522-935337067.jpg",
+          "mediaType": "image"
+        }
+      ],
+      "id": "tAPg5nHr_qE"
+    },
+    {
+      "title": "Engagement Video",
+      "category": "Engagement",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793441345495-252724693.mp4",
+          "fileName": "1793441345495-252724693.mp4",
+          "mediaType": "video"
+        }
+      ],
+      "id": "-P_gt7EJ2ds"
+    },
+    {
+      "title": "Car-Delivery",
+      "category": "Vehicle Delivery",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793441430713-852534945.mp4",
+          "fileName": "1793441430713-852534945.mp4",
+          "mediaType": "video"
+        }
+      ],
+      "id": "ezdC5wNh7NI"
+    },
+    {
+      "title": "Pre-Wedding Shoot",
+      "category": "Pre-Wedding",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793441519633-364412878.mp4",
+          "fileName": "1793441519633-364412878.mp4",
+          "mediaType": "video"
+        }
+      ],
+      "id": "7muOsCnlntA"
+    }
+  ],
+  "users": [
+    {
+      "id": "PZkIULwx5YY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
