@@ -1,7 +1,7 @@
-
 import { useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import introVideo from '../assets/videos/chamunda-intro.mp4'
+import SocialMedia from '../components/SocialMedia'
 
 function Home() {
   const [showIntro, setShowIntro] = useState(true)
@@ -33,6 +33,7 @@ function Home() {
 
   return (
     <>
+      {/* Intro Video */}
       {showIntro && (
         <div className="intro-screen">
           <video
@@ -49,6 +50,7 @@ function Home() {
         </div>
       )}
 
+      {/* Home Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay"></div>
 
@@ -91,6 +93,9 @@ function Home() {
 
         </div>
       </section>
+
+      {/* Social Media Icons - Only Home Page */}
+      {showContent && <SocialMedia />}
     </>
   )
 }
