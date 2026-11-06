@@ -1,14 +1,35 @@
 
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --gold: #c9a44c;
+  --dark: #080808;
+  --light-dark: #151515;
+}
+
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #080808;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--dark);
   color: #ffffff;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 a {
@@ -17,10 +38,42 @@ a {
 
 button {
   cursor: pointer;
+  max-width: 100%;
 }
 
-:root {
-  --gold: #c9a44c;
-  --dark: #080808;
-  --light-dark: #151515;
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select {
+  max-width: 100%;
+  font: inherit;
+}
+
+/* Mobile Responsive Global Settings */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  button,
+  .gold-btn,
+  .outline-btn {
+    max-width: 100%;
+  }
 }

@@ -107,38 +107,6 @@
       "id": "QzucW6VXn5E"
     },
     {
-      "title": "Photos",
-      "category": "Photography",
-      "media": [
-        {
-          "url": "http://localhost:4000/uploads/1793432986018-400530933.jpg",
-          "fileName": "1793432986018-400530933.jpg",
-          "mediaType": "image"
-        },
-        {
-          "url": "http://localhost:4000/uploads/1793432986034-686772607.mp4",
-          "fileName": "1793432986034-686772607.mp4",
-          "mediaType": "video"
-        },
-        {
-          "url": "http://localhost:4000/uploads/1793432986136-922706145.png",
-          "fileName": "1793432986136-922706145.png",
-          "mediaType": "image"
-        },
-        {
-          "url": "http://localhost:4000/uploads/1793432986175-715095396.png",
-          "fileName": "1793432986175-715095396.png",
-          "mediaType": "image"
-        },
-        {
-          "url": "http://localhost:4000/uploads/1793432986219-595205875.png",
-          "fileName": "1793432986219-595205875.png",
-          "mediaType": "image"
-        }
-      ],
-      "id": "L2Hoq2nAAWE"
-    },
-    {
       "title": "Birthday Photoshoot",
       "category": "Birthday",
       "media": [
@@ -185,6 +153,18 @@
         }
       ],
       "id": "7muOsCnlntA"
+    },
+    {
+      "title": "Freindship",
+      "category": "Photography",
+      "media": [
+        {
+          "url": "http://localhost:4000/uploads/1793947355421-974292457.jpeg",
+          "fileName": "1793947355421-974292457.jpeg",
+          "mediaType": "image"
+        }
+      ],
+      "id": "NWL8B51hcgw"
     }
   ],
   "users": [
